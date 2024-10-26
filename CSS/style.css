@@ -366,9 +366,16 @@ input, textarea {
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 14px; 
+}
+textarea {
+    width: 100%; 
     max-width: 500px; 
     height: 150px; 
     resize: none; 
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 button {
