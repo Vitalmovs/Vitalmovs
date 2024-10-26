@@ -369,8 +369,8 @@ input, textarea {
 }
 textarea {
     width: 100%; 
-    max-width: 500px; 
-    height: 150px; 
+    max-width: 550px; 
+    height: 78px; 
     resize: none; 
     padding: 8px;
     border: 1px solid #ddd;
