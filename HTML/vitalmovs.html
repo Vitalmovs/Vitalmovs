@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalMovs - Rehabilitación</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../img/logo.png" alt="Logo VitalMovs" class="logo-img">
+            </div>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Rutina</a></li>
+                        <li><a href="#">Plan</a></li>
+                        <li><a href="#">Monitoreo Médico</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="#" class="login-btn">Login</a>
+                <a href="#" class="register-btn">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>
+                Tu compañero de rehabilitación,<br>
+                guiándote hacia la recuperación con<br>
+                cada paso
+            </h1>
+            <a href="#" class="btn-hero">Servicios</a>
+        </div>
+        <div class="hero-images">
+            <img src="../img/Gato-removebg-preview.png" alt="Imagen izquierda" class="gato">
+            <div>
+                <img src="../img/chica-rehabilitacion.png" alt="Imagen derecha 1" class="chica">
+                <img src="../img/Chica_laptop-removebg-preview.png" alt="Imagen derecha 2" class="laptop">
+            </div>  
+        </div>
+    </section>
+
+    <section class="description">
+        <div class="description-content">
+            <p>
+                En VitalMoves, entendemos lo desafiante que puede ser el camino hacia la recuperación<br>
+                después de un accidente. Por eso, hemos creado un centro de rehabilitación virtual diseñado<br>
+                para brindarte el apoyo que necesitas, cuando lo necesitas.<br>
+                Ofrecemos atención personalizada las 24 horas, con acceso a una biblioteca de videos<br>
+                exclusivos que te guiarán en cada paso de tu recuperación. Además, nuestro sistema de<br>
+                monitoreo continuo de salud garantiza que tu progreso esté siempre en las mejores manos.<br>
+                Estamos aquí para ayudarte a recuperar tu bienestar, con un enfoque integral que combina<br>
+                tecnología, cuidado y conocimiento experto.
+            </p>
+        </div>
+        <img src="../IMG/circulo-decorativo.png" alt="Imagen descriptiva" class="description-image">
+    </section>
+    
+    
+
+    <section class="features">
+        <h2>Características Clave de VitalMovs</h2>
+        <div class="features-container">
+            <div class="feature">
+                <img src="../img/monitor.png" alt="Monitoreo de progreso">
+                <div class="cuadrado">             
+                <h3>Monitoreo de progreso</h3>
+                <p>Gráficos detallados para que puedas visualizar y seguir tu evolución en cada etapa de tu rehabilitación.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="../img/soporte.png" alt="Soporte profesional">
+                <div class="cuadrado">
+                <h3>Soporte profesional</h3>
+                <p>Contacta con fisioterapeutas y médicos que te ayudarán a ajustar y mejorar tu tratamiento según tus necesidades.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="../img/comunidad.png" alt="Comunidad de apoyo">
+                <div class="cuadrado">
+                <h3>Comunidad de apoyo</h3>
+                <p>Recibe consejos y soporte de otros usuarios que están atravesando un proceso de rehabilitación similar al tuyo.</p>
+                </div>           
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>¿Necesitas más información?</h2>
+        <form id="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="telefono">Número de celular</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Síguenos en</a></li>
+        </ul>
+    </footer>
+
+    <script src="../JS/javascript.js"></script>
+</body>
+</html>
