@@ -366,6 +366,9 @@ input, textarea {
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 14px; 
+    max-width: 500px; 
+    height: 150px; 
+    resize: none; 
 }
 
 button {
