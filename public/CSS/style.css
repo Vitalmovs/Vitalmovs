@@ -308,7 +308,7 @@ nav .menu li a:hover {
     position: relative;
     padding: 40px;
     text-align: center;
-    background-image: url('../IMG/fondo1.png'); 
+    background-image: url('../public/IMG/fondo1.png'); 
     background-size: 1920px 459px;
     background-repeat: no-repeat; 
     background-position: center; 
