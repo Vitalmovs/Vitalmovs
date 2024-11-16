@@ -14,7 +14,9 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     } else {
         alert("Por favor, completa todos los campos.");
     }
-
-    
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('¡Gracias por contactarnos! Te responderemos pronto.');
+        
     this.reset();
 });
