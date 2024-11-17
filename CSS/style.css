@@ -197,33 +197,32 @@ nav .menu li a:hover {
     justity-content:center;
 }
 
-@media (max-widht: 768px) {
-.hero h1 {
-    font-size: 3rem; 
-    line-height: 1.5; 
-    text-align: left; 
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: left;
     width: 80%; 
     margin: 0 auto; 
-    padding-left:10%;
-}
+    margin-left: 10%; 
+  }
 
-.hero h1::after {
-    content: "";
+  .hero h1::after {
+    content: ""; 
     display: block;
-}
+  }
 
-.btn-hero {
-    background-color: #EDD7FF; 
-    color: #7B6C81; 
+  .btn-hero {
+    background-color: #EDD7FF;
+    color: #7B6C81;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin:20px auto;
-    position:relative; 
-    transform: translateX(-50%);
-    left:50%;
-    display:block;
-}
+    margin-top: 20px;
+    position: relative; 
+    transform: translateX(-50%); 
+    left: 50%; 
+  }
 }
 .btn-hero:hover {
     background-color: #7F3FBF; 
