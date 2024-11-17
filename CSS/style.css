@@ -232,6 +232,7 @@ nav .menu li a:hover {
     align-items: flex-end;
     position: relative;
     padding: 20px;
+    margin-top:-50px;
 }
 
 .hero-images img {
