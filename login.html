@@ -1,32 +1,54 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesión</title>
-    <link rel="stylesheet" href="CSS/login.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<link rel="stylesheet" href="CSS/login.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sulphur Point:wght@400;700&display=swap" />
+	<title>Iniciar sesión en Anthieft</title>
 </head>
 <body>
-    <div class="login-container">
-        <h2>Inicia Sesión</h2>
-        <form>
-            <div class="input-group">
-                <input type="email" placeholder="Correo electrónico" required>
-                <span class="icon"><img src="../IMG/icons8-correo-16.png" alt="Email Icon"></span>
-            </div>
-            <div class="input-group">
-                <input type="password" placeholder="Contraseña" required>
-                <span class="icon"><img src="../IMG/icons8-candado-16.png" alt="Lock Icon"></span>
-            </div>
-            <label>
-                <input type="checkbox"> Recordar datos
-            </label>
-            <button type="submit">Iniciar Sesión</button>
-            <div class="links">
-                <a href="#">¿Olvidaste tu contraseña?</a>
-                <a href="Register.html">¿Aún no eres usuario? <span>Regístrate</span></a>
-            </div>
-        </form>
-    </div>
+	<div class="log-in-page">
+		<div class="log-in-page-child"></div>
+		<div class="log-in-page-item"></div>
+		<b class="iniciar-sesin"><a href="main.html">INICIAR SESIÓN</a></b>
+		<b class="inicia-sesin">Inicia sesión</b>
+		<div class="campos-inicio-sesin">
+			<div class="correo-electrnico-contrasea-container">
+				<form>
+					<p class="correo-electrnico">Correo electrónico</p>
+					<p class="contrasea">Contraseña</p>
+				</form>
+			</div>
+			<img class="campos-inicio-sesin-child" alt="" src="Line 1.svg">
+			<img class="campos-inicio-sesin-item" alt="" src="Line 2.svg">
+		</div>
+		<img class="log-in-page-inner" alt="" src="Line 3.svg">
+		<img class="line-icon" alt="" src="Line 4.svg">
+		<div class="rectangle-div">
+		</div>
+		<div class="recordar-datos">Recordar datos</div>
+		<div class="olvidaste-tu-contrasea-container">
+			<p class="olvidaste-tu-contrasea">
+				<b>
+					<span>¿Olvidaste tu contraseña?</span>
+				</b>
+			</p>
+			<p class="blank-line">
+				<b>
+					<span>&nbsp;</span>
+				</b>
+			</p>
+			<p class="contrasea">
+				<span>
+					<span>¿Aún no eres usuario?</span>
+					<b class="b"> </b>
+				</span>
+				<b class="b">
+					<span class="regstrate1"><a href="Register.html">Regístrate</a></span>
+				</b>
+			</p>
+		</div>
+	</div>
 </body>
 </html>
