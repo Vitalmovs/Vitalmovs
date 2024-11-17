@@ -203,9 +203,10 @@ nav .menu li a:hover {
 .hero h1 {
     font-size: 3rem; 
     line-height: 1.5; 
-    text-align: center; 
-    width: 80%; 
+    text-align: left; 
+    width: 78%; 
     margin: 0 auto; 
+    margin-left:10%;
 }
 
 .hero h1::after {
