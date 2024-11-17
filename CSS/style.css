@@ -221,7 +221,7 @@ nav .menu li a:hover {
     text-decoration: none;
     border-radius: 5px;
     margin-top:20px;
-    position:relarive; 
+    position:relative; 
 }
 .btn-hero:hover {
     background-color: #7F3FBF; 
