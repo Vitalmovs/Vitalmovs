@@ -165,8 +165,8 @@ nav .menu li a:hover {
     height: 300px; 
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-   
+    justify-content: center;
+    align-items:center;
 }
 
 
