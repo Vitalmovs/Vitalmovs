@@ -190,20 +190,21 @@ nav .menu li a:hover {
     bottom: 0px;
 }
 
-.hero {
+.hero-content {
     display: flex;
-    justify-content: center; 
-    align-items: center;     
-    text-align: center;     
-    height: 100%;            
-    padding: 20px;           
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    text-align: center;      /* Alinea el texto en el centro */
+    height: 100%;            /* Asegúrate de que ocupe todo el contenedor */
+    padding: 20px;           /* Ajusta si necesitas más espacio alrededor */
 }
 
 .hero h1 {
-    font-size: 2.5rem;     
-    color: #ffffff;      
-    margin: 0;               
-  }
+    font-size: 2.5rem;       /* Ajusta el tamaño del texto */
+    color: #ffffff;          /* Ajusta el color según tu diseño */
+    margin: 0;               /* Elimina márgenes externos */
+}
+
    
   
   .hero h1::after {
