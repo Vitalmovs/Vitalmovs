@@ -204,7 +204,7 @@ nav .menu li a:hover {
     text-align: left; 
     width: 80%; 
     margin: 0 auto; 
-    margin-left:10%;
+    padding-left:10%;
 }
 
 .hero h1::after {
@@ -218,10 +218,11 @@ nav .menu li a:hover {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top:20px;
+    margin:20px auto;
     position:relative; 
     transform: translateX(-50%);
     left:50%;
+    display:block;
 }
 }
 .btn-hero:hover {
