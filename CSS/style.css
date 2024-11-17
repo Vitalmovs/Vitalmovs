@@ -194,6 +194,10 @@ nav .menu li a:hover {
 
 .hero-content {
     margin-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justity-content:center;
 }
 
 .hero h1 {
@@ -215,9 +219,8 @@ nav .menu li a:hover {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    position:absolute;
-    right: 900px;
-    
+    margin-top:20px;
+    position:relarive; 
 }
 .btn-hero:hover {
     background-color: #7F3FBF; 
