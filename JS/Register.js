@@ -23,5 +23,5 @@ document.getElementById('registerForm').addEventListener('submit', function(e) {
     localStorage.setItem('users', JSON.stringify(users));
 
     alert('Se ha registrado correctamente.');
-    window.location.href = 'Login.html'; // Redirige al login
+    window.location.href = 'login.html'; // Redirige al login
 });
