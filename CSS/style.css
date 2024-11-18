@@ -413,16 +413,23 @@ footer ul {
     display: flex; 
     justify-content: center; 
     align-items: center;
-    gap: 10px; 
+    gap: 40px; 
 }
 footer ul li{
     display:flex;
     align-items:center;
 }
 
-footer ul li + li img {
-    margin-left: 10px;
+footer ul .social-container {
+    display:flex;
+    align-items: center;
+    gap:10px;
 }
+
+footer ul .social-container img {
+    margin-left: 5px; 
+}
+
 footer a {
     color: white; 
     text-decoration: none; 
