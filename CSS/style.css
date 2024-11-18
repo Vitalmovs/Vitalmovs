@@ -413,13 +413,16 @@ footer ul {
     display: flex; 
     justify-content: center; 
     align-items: center;
-    gap: 40px; 
+    gap: 10px; 
 }
 footer ul li{
     display:flex;
     align-items:center;
 }
 
+footer ul li + li img {
+    margin-left: 10px;
+}
 footer a {
     color: white; 
     text-decoration: none; 
