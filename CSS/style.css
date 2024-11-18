@@ -412,9 +412,13 @@ footer ul {
     margin: 0;
     display: flex; 
     justify-content: center; 
+    align-items: center;
     gap: 40px; 
 }
-
+footer ul li{
+    display:flex;
+    align-items:center;
+}
 
 footer a {
     color: white; 
