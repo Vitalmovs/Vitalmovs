@@ -204,7 +204,7 @@ nav .menu li a:hover {
     line-height: 1.5;   
     width: 70%;
     margin: 0 auto;
-    margin-left: 100px;
+    margin-left: 80px;
      
 }
    
@@ -220,7 +220,7 @@ nav .menu li a:hover {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    top: -30px; 
+    top: -20px; 
     position: relative; 
 }
 
@@ -234,7 +234,7 @@ nav .menu li a:hover {
     align-items: flex-end;
     position: relative;
     padding: 20px;
-    top:-50px;
+    top:-30px;
 }
 
 .hero-images img {
