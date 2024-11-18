@@ -203,6 +203,7 @@ nav .menu li a:hover {
     font-size: 3rem;
     line-height: 1.5;   
     width: 70%;
+    margin: 0 auto;
     margin-left: 100px;
      
 }
